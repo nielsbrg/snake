@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B86F4CD9-F827-4C59-8E23-3698DF8E5F52}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Snake.Application</RootNamespace>
+    <AssemblyName>Snake.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events\FoodEatenEvent.cs" />
+    <Compile Include="Game\ScoreController.cs" />
+    <Compile Include="Game\SnakeFoodCollisionController.cs" />
+    <Compile Include="Game\SnakeFoodController.cs" />
+    <Compile Include="Renderers\ScoreRenderer.cs" />
+    <Compile Include="Renderers\SnakeFoodRenderer.cs" />
+    <Compile Include="SnakeApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SnakeApplication.Designer.cs">
+      <DependentUpon>SnakeApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events\DirectionChangedEvent.cs" />
+    <Compile Include="Events\IObserver.cs" />
+    <Compile Include="Events\Observable.cs" />
+    <Compile Include="Events\SnakeDyingEvent.cs" />
+    <Compile Include="Game\SnakeController.cs" />
+    <Compile Include="Input\InputController.cs" />
+    <Compile Include="Events\IObservable.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Renderers\IRenderer.cs" />
+    <Compile Include="Renderers\SnakeRenderer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SnakeCreator.cs" />
+    <EmbeddedResource Include="SnakeApplication.resx">
+      <DependentUpon>SnakeApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snake.Domain\Snake.Domain.csproj">
+      <Project>{7EC73B73-25E3-4845-811D-255F6F308F51}</Project>
+      <Name>Snake.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Snake.Utilities\Snake.Engine.csproj">
+      <Project>{4179804f-5623-496d-8043-d4a99786e262}</Project>
+      <Name>Snake.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

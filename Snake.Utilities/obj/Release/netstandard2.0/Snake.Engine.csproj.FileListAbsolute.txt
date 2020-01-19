@@ -1,0 +1,8 @@
+C:\Repositories\Snake\Snake.Utilities\bin\Release\netstandard2.0\Snake.Engine.deps.json
+C:\Repositories\Snake\Snake.Utilities\bin\Release\netstandard2.0\Snake.Engine.dll
+C:\Repositories\Snake\Snake.Utilities\bin\Release\netstandard2.0\Snake.Engine.pdb
+C:\Repositories\Snake\Snake.Utilities\obj\Release\netstandard2.0\Snake.Engine.csprojAssemblyReference.cache
+C:\Repositories\Snake\Snake.Utilities\obj\Release\netstandard2.0\Snake.Engine.AssemblyInfoInputs.cache
+C:\Repositories\Snake\Snake.Utilities\obj\Release\netstandard2.0\Snake.Engine.AssemblyInfo.cs
+C:\Repositories\Snake\Snake.Utilities\obj\Release\netstandard2.0\Snake.Engine.dll
+C:\Repositories\Snake\Snake.Utilities\obj\Release\netstandard2.0\Snake.Engine.pdb

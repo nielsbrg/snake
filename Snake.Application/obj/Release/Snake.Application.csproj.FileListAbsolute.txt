@@ -1,0 +1,14 @@
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Application.exe.config
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Application.exe
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Application.pdb
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Domain.dll
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Engine.dll
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Domain.pdb
+C:\Repositories\Snake\Snake.Application\bin\Release\Snake.Engine.pdb
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.csprojAssemblyReference.cache
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.SnakeApplication.resources
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.Properties.Resources.resources
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.csproj.GenerateResource.cache
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.csproj.CopyComplete
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.exe
+C:\Repositories\Snake\Snake.Application\obj\Release\Snake.Application.pdb

@@ -1,0 +1,11 @@
+C:\Repositories\Snake\Snake.Domain\bin\Debug\netstandard2.0\Snake.Domain.deps.json
+C:\Repositories\Snake\Snake.Domain\bin\Debug\netstandard2.0\Snake.Domain.dll
+C:\Repositories\Snake\Snake.Domain\bin\Debug\netstandard2.0\Snake.Domain.pdb
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.csprojAssemblyReference.cache
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.AssemblyInfoInputs.cache
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.AssemblyInfo.cs
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.dll
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.pdb
+C:\Repositories\Snake\Snake.Domain\bin\Debug\netstandard2.0\Snake.Engine.dll
+C:\Repositories\Snake\Snake.Domain\bin\Debug\netstandard2.0\Snake.Engine.pdb
+C:\Repositories\Snake\Snake.Domain\obj\Debug\netstandard2.0\Snake.Domain.csproj.CopyComplete
